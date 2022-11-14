@@ -1,2 +1,2 @@
 # shader-based-2D-animated-tile-rendering
-Created with CodeSandbox
+Shader based 2D animated tile rendering, includes responsive layout on three.js
