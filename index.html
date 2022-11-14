@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Shader based 2D animated tile rendering</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./src/styles.css" />
+  </head>
+
+  <body>
+    <div id="game" class="hero-scene"></div>
+    <div class="test">
+      <button onclick="gameManager.startAnimation('gorilla');">
+        START ANIMATION
+      </button>
+      <button onclick="gameManager.stopAnimation('gorilla');">
+        STOP ANIMATION
+      </button>
+      <button onclick="gameManager.debug();">
+        DEBUG
+      </button>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>
